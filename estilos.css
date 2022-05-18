@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.nav-bar{
+
+    
+    
+    width: 100%;
+    height: 60px;
+    background: #202020;
+    display: flex;
+    padding: 0 0 0 25px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #373737;
+
+}
+
+.icons-container{
+    width: 30%;
+    display: flex;
+    padding:0;
+}
+
+.icons-container span{
+    color: white;
+}
+
+.icons-container span:nth-child(1){
+
+    font-size: 20px;
+}
+
+.youtube-logo-container{
+    padding-left: 10px;
+}
+
+.youtube-logo-container span{
+
+    padding-left:5px;
+}
+
+.youtube-logo-container .logo-title{
+    font-family: 'League Gothic', sans-serif;;
+}
+
+.search-bar-container{
+    width: 40%;
+}
+
+.search-bar-container input{
+    background: #121212;
+    border: none;
+    height: 40px;
+    width: 90%;
+}
+
+.aside-items-container{
+
+    width: 250px;
+    height: 100vh;
+    background: #212121;
+}
